@@ -1,6 +1,4 @@
-with open('input.txt', 'r') as file:
-    lines = file.readlines()
-    sonarMeasurements = [int(measurement) for measurement in lines]
+from readSonarMeasurementsFromFile import sonarMeasurements
 
 previousSonarMeasurements = sonarMeasurements[0]
 counter = 0
